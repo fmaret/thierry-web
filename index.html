@@ -7,8 +7,8 @@
     <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <title>Motus Bot</title>
 </head>
-<body class="bg-gray-900 h-screen flex flex-col">
-    <div class="pl-14  py-14 flex items-center flex-grow">
+<body class="bg-gray-900 flex flex-col">
+    <div class="pl-14  py-14 flex items-center">
         <img src="./avatar.jpg" alt="Thierry Beccaro" class="rounded-full w-72 shadow-2xl">
         <div class="ml-14 flex flex-col">
             <h1 class="text-5xl text-white font-bold mt-3">Thierry Beccaro</h1>
@@ -18,13 +18,23 @@
             <a target="_blank" href="https://discord.com/api/oauth2/authorize?client_id=905881049228247111&permissions=0&scope=bot" class="mt-12 bg-green-500 shadow-2xl px-4 py-2 font-bold hover:bg-green-700 w-64">Invitez le bot à votre serveur</a>
         </div>
     </div>
-    <div class="h-96 text-white pl-14 pr-14 mt-4 py-14 divide-x-2 flex flex-row bg-green-800">
-        <h1 class="text-4xl pr-14 font-bold">Commandes</h1>
+    <div class="text-white pl-14 pr-14 mt-4 py-14 divide-x-2 flex flex-row bg-green-800">
+        <h1 class="text-4xl pr-14 font-bold w-72 justify-end flex">Commandes</h1>
         <ul class="text-2xl pl-14 flex flex-col">
-            <li class="my-2"><span class="bg-black px-2 bg-opacity-75">;start</span> Démarre une partie de Motus.</li>
             <li class="my-2"><span class="bg-black px-2 bg-opacity-75">;help</span> Affiche l'aide.</li>
+            <li class="my-2"><span class="bg-black px-2 bg-opacity-75">;start</span> <span class="bg-black px-2 bg-opacity-75">difficulty</span> Démarre une partie de Motus. Le paramètre <span class="bg-black px-2 bg-opacity-75">difficulty</span> peut prendre les valeurs <span class="bg-black px-2 bg-opacity-75">easy</span> , <span class="bg-black px-2 bg-opacity-75">medium</span> ou <span class="bg-black px-2 bg-opacity-75">hard</span></li>
+            <li class="my-2"><span class="bg-black px-2 bg-opacity-75">;stop</span> Arrête la partie.</li>
         </ul>
     </div>
+    <div class="text-white pl-14 pr-14 mt-4 py-14 divide-x-2 flex flex-row bg-green-800">
+        <h1 class="text-4xl pr-14 font-bold w-72 justify-end flex">Images</h1>
+        <ul class="text-2xl pl-14 flex flex-col">
+            <li class="my-2"><img src="tb1.PNG"></li>
+            <li class="my-2"><img src="tb2.PNG"></li>
+            <li class="my-2"><img src="tb3.PNG"></li>
+        </ul>
+    </div>
+    
 
     
 </body>
